@@ -84,7 +84,7 @@
                 {
                     if (jolly == false)
                     {
-                        Console.WriteLine("jolly gia' usato!\n");
+                        Console.WriteLine("joly gia usato\n");
                     }
                     else
                     {
