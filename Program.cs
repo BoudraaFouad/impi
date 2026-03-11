@@ -75,7 +75,7 @@
                 {
                     Console.WriteLine("monete: " + mon + " | jolly: usato");
                 }
-                Console.Write("inserisci lettera (o J/1/2): ");
+                Console.Write("inserisci lettera o parola(o J/1/2): ");
 
                 string sc = Console.ReadLine(); // input del giocatore
 
