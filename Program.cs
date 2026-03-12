@@ -2,12 +2,12 @@
 {
     internal class Program
     {
-        // pia na parola a caso dall'array
+        // estrae la parola
         static string estraiParola(string[] par)
         {
             Random r = new Random();      // numero casuale
-            int idx = r.Next(par.Length); // indice casuale
-            return par[idx];
+            int p = r.Next(par.Length); // indice casuale
+            return par[p];
         }
 
         // mette tutti trattini al posto delle lettere
