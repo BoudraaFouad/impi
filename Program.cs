@@ -134,7 +134,7 @@
                 else if (sc.Length > 1)
                 {
                     tent++; 
-                    if (sc.ToLower() == parola.ToLower()) // parola giusta?
+                    if (sc.ToLower() == parola.ToLower()) // parola giusta
                     {
                         for (int i = 0; i < parola.Length; i++)
                         {
