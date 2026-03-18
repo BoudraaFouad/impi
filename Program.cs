@@ -5,8 +5,8 @@
         // estrae la parola
         static string estraiParola(string[] par)
         {
-            Random r = new Random();      // numero casuale
-            int p = r.Next(par.Length); // indice casuale
+            Random r = new Random();      // numero casuale per la parola
+            int p = r.Next(par.Length); 
             return par[p];
         }
 
